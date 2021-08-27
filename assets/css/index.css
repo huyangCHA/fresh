@@ -80,12 +80,13 @@
   text-align: center;
 }
 .item .icon img {
-  width: 2em;
-  height: 2em;
+  width: 1.5em;
+  height: 1.5em;
 }
 .item .icon p {
   font-family: SHSC;
   color: #333333;
+  font-size: 0.5em;
 }
 .kind {
   padding: em 1em;
@@ -110,11 +111,11 @@
   margin-bottom: 1em;
 }
 .kind .top .k-icon img {
-  width: 3em;
-  height: 3em;
+  width: 2em;
+  height: 2em;
 }
 .kind .top .k-icon p {
-  font-size: 0.8em;
+  font-size: 0.5em;
   font-family: SHSC;
 }
 .kind .btm {
@@ -185,7 +186,7 @@
 .rush .r-top .r-buy {
   width: 28%;
   color: #fff;
-  font-size: 1.5em;
+  font-size: 1em;
   font-weight: bold;
 }
 .rush .r-top .box {
@@ -202,7 +203,7 @@
   display: flex;
   justify-content: space-between;
   padding: 1em 1em;
-  width: 90%;
+  width: 94%;
   background: #fff;
   margin: 0 auto;
   text-align: center;
@@ -211,16 +212,17 @@
 .rush .r-btm .r-pic {
   width: 33%;
   margin-right: 1.4em;
+  text-align: center;
 }
 .rush .r-btm .r-pic img {
-  width: 5.1em;
-  height: 5.1em;
+  width: 4em;
+  height: 4em;
   border-radius: 1em;
 }
 .rush .r-btm .r-pic p {
   font-family: SHSC;
   color: #a3a3a3;
-  font-size: 1em;
+  font-size: 0.7em;
 }
 .rush .r-btm .r-pic p span {
   color: #ff0000;
@@ -262,7 +264,7 @@
   background: #5ca9f6;
   color: #fff;
   padding: 0.2em;
-  font-size: 0.8em;
+  font-size: 0.7em;
 }
 .rebate .left .top .pic1 {
   width: 30%;
@@ -300,7 +302,7 @@
   background: #8b59f1;
   color: #fff;
   padding: 0.2em;
-  font-size: 0.8em;
+  font-size: 0.7em;
   display: inline-block;
   border-radius: 0.2em;
 }
@@ -348,7 +350,7 @@
 .rebate .right span {
   background: #ff6565;
   color: #fff;
-  font-size: 0.8em;
+  font-size: 0.7em;
   padding: 0.3em;
   border-radius: 0.2em;
 }

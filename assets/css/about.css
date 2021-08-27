@@ -118,3 +118,39 @@
   line-height: 3em;
   color: #5ca9f6;
 }
+/* 底部 */
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #ffffff;
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+.footer .item-2 {
+  width: 20%;
+  height: 100%;
+  padding: 1em 0em;
+  text-align: center;
+  color: #999;
+  flex-wrap: wrap;
+  transition: all ease-in 0.2s;
+}
+.footer .item-2 h4 {
+  font-size: 0.8em;
+}
+.footer .item-2 p {
+  width: 100%;
+  text-align: center;
+  font-size: 1em;
+}
+.footer .item-2 p:first-child {
+  margin-bottom: 0.2em;
+}
+.footer .item-2:hover {
+  cursor: pointer;
+  color: #5ca9f6;
+}

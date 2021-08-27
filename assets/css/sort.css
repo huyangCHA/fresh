@@ -10,7 +10,7 @@
   width: 28%;
 }
 .paging .left ul li {
-  padding: 1.8em 0em;
+  padding: 1.5em 0em;
   background: #fff;
   color: #b5b5b5;
 }
@@ -33,7 +33,8 @@
   padding: 1em 0.5em;
 }
 .paging .right .icon .list .pic {
-  width: 20%;
+  width: 25%;
+  margin-right: 0.5em;
 }
 .paging .right .icon .list .pic img {
   width: 4em;
@@ -43,13 +44,15 @@
 }
 .paging .right .icon .list .info h3 {
   font-weight: bold;
+  font-size: 0.8em;
 }
 .paging .right .icon .list .info h5 {
   color: #b5b5b5;
   margin-bottom: 0.5em;
+  font-size: 0.8em;
 }
 .paging .right .icon .list .info p {
-  font-size: 1.2em;
+  font-size: 1em;
   color: red;
 }
 .paging .right .icon .list .info p span {

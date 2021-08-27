@@ -125,3 +125,44 @@
         }
     }
 }
+
+/* 底部 */
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background:#ffffff;
+    position: sticky;
+    bottom:0;
+    left:0;
+    width:100%;
+    z-index:10;
+  
+    .item-2{
+      width:20%;
+      height:100%;
+      padding:1em 0em;
+      text-align: center;
+      color:#999;
+   flex-wrap: wrap;
+      transition: all ease-in .2s;
+      h4{
+        font-size: .8em;
+      }
+  
+      p{
+        width: 100%;
+        text-align: center;
+        font-size:1em;
+        
+        &:first-child{
+          margin-bottom:.2em;
+        }
+      }
+  
+      &:hover{
+        cursor: pointer;
+        color:#5ca9f6;
+      }
+    }
+  }
