@@ -1,0 +1,106 @@
+.header{
+  background:#5ca9f6;
+
+  .nav{
+      display: flex;
+      justify-content: space-around;
+      width: 90%;
+     padding-top: 2em;
+      height: 5em;
+      line-height: 2em;
+      margin: 0 auto;
+      font-family: SHSC;
+      .location{
+          width: 30%;
+          .dropdown{
+              display: flex;
+              justify-content: space-around;
+              width: 100%;
+              margin-right: .5em;
+              button{
+                  padding: 0;
+                  background: transparent;
+                  color: #ffff;
+              }
+             
+          }
+      }
+      .ipt{
+          width: 50%;
+          margin-right: 1em;
+          input{
+              width: 100%;
+              border-radius: 2em;
+              border: 0px;
+              text-align: center;
+              margin-left: 1em;
+              height: 1.8em;
+              font-size: .8em;
+          }
+
+      }
+      .news{
+          width: 7%;
+          line-height: 100%;
+          padding-top: .5em;
+          color: #fff;
+      }
+  }
+  .type{
+      padding-top: 4em;
+      color: #fff;
+      font-family: SHSC;
+      padding-left: 3em;
+      h1{
+          font-size: 1.6em;
+          font-weight: bold;
+          margin-bottom: .5em;            
+      }
+      h2{
+       background: rgba(136, 127, 127, 0.349); 
+       width: 8em;  
+       height: 2em;
+       text-align: center;
+       line-height: 2em;
+       border-radius: .5em;
+      }
+  }
+}
+
+/* 底部 */
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background:#ffffff;
+    position: sticky;
+    bottom:0;
+    left:0;
+    width:100%;
+    z-index:10;
+  
+    .item-2{
+      width:20%;
+      height:100%;
+      padding:1em 0em;
+      text-align: center;
+      color:#999;
+   flex-wrap: wrap;
+      transition: all ease-in .2s;
+  
+      p{
+        width: 100%;
+        text-align: center;
+        font-size:1.2em;
+        
+        &:first-child{
+          margin-bottom:.2em;
+        }
+      }
+  
+      &:hover{
+        cursor: pointer;
+        color:#5ca9f6;
+      }
+    }
+  }

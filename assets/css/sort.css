@@ -1,0 +1,64 @@
+.paging {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background: #f6f6f6;
+  font-family: SHSC;
+}
+.paging .left {
+  text-align: center;
+  width: 28%;
+}
+.paging .left ul li {
+  padding: 1.8em 0em;
+  background: #fff;
+  color: #b5b5b5;
+}
+.paging .left ul li:first-child {
+  background: #f6f6f6;
+  color: #5ca9f6;
+}
+.paging .right {
+  width: 69%;
+}
+.paging .right .icon h1 {
+  padding: 1.5em 0em;
+  color: #5ca9f6;
+}
+.paging .right .icon .list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background: #fff;
+  padding: 1em 0.5em;
+}
+.paging .right .icon .list .pic {
+  width: 20%;
+}
+.paging .right .icon .list .pic img {
+  width: 4em;
+}
+.paging .right .icon .list .info {
+  width: 46%;
+}
+.paging .right .icon .list .info h3 {
+  font-weight: bold;
+}
+.paging .right .icon .list .info h5 {
+  color: #b5b5b5;
+  margin-bottom: 0.5em;
+}
+.paging .right .icon .list .info p {
+  font-size: 1.2em;
+  color: red;
+}
+.paging .right .icon .list .info p span {
+  font-size: 0.8em;
+  color: #b5b5b5;
+  text-decoration: line-through;
+}
+.paging .right .icon .list .buy {
+  width: 10%;
+  padding-top: 1em;
+  color: #5ca9f6;
+}

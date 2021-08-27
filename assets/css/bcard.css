@@ -1,0 +1,126 @@
+.nav {
+  height: 4em;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  line-height: 4em;
+  background: #5ca9f6;
+  margin: 0 auto;
+  padding: 0em 1em;
+}
+.nav .info {
+  width: 80%;
+  color: #fff;
+  font-size: 1.2em;
+}
+.nav .inf {
+  width: 13%;
+  font-size: 1.2em;
+  color: #fff;
+}
+.nav .inf a {
+  color: #fff;
+}
+.nav .inf a:hover {
+  color: #8e4adb;
+  cursor: pointer;
+  text-decoration: none;
+}
+.card {
+  width: 90%;
+  margin: 0 auto;
+  background: #fff;
+}
+.card .one {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  padding: 1em 1em;
+  flex-wrap: wrap;
+  margin-top: 1em;
+  font-family: SHSC;
+}
+.card .one img {
+  width: 5em;
+  margin-right: 1em;
+}
+.card .one .wez h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+.card .one .wez P {
+  display: inline-block;
+  padding: 0.2em 0.2em;
+  border: 1px solid #ee5006;
+  border-radius: 0.5em;
+  color: #ee5006;
+}
+.card .one .wez span {
+  padding: 0.2em 0.2em;
+  border: 1px solid #ee5006;
+  border-radius: 0.5em;
+  color: #ee5006;
+}
+.card .two {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  color: #5ca9f6;
+  margin-bottom: 1em;
+}
+.card .two .t-left {
+  width: 60%;
+}
+.card .two .t-right {
+  width: 20%;
+}
+.card .three {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  padding: 0.8em 0em;
+}
+.card .three .left {
+  align-items: center;
+  display: flex;
+  width: 30%;
+}
+.card .three .left input {
+  width: 1em ;
+  height: 1em;
+  margin-right: 0.5em;
+}
+.card .three .left img {
+  width: 4em;
+}
+.card .three .center {
+  width: 50%;
+}
+.card .three .center h3 {
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+.card .three .center h5 {
+  margin-bottom: 0.5em;
+}
+.card .three .center p {
+  font-size: 1.2em;
+  color: red;
+}
+.card .three .center p span {
+  font-size: 0.8em;
+  color: #b5b5b5;
+  text-decoration: line-through;
+}
+.card .three .right {
+  width: 5%;
+}
+.card .three .right span {
+  padding-top: 1.4em;
+  color: #b5b5b5;
+}
+.card .three .right span:hover {
+  color: #5ca9f6;
+}
